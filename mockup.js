@@ -13,12 +13,9 @@ alert("Buzz")
 
 let numberRange = 6
 let userGuess = prompt("Pick a number between 1 and 10")
-if (userGuess === numberRange) {
+if (userGuess == numberRange) {
     alert("That is correct!")
 } else {
     alert("Sorry, try another number.")
 }
 
-
-Generate a number between 1-10. 
-Ask the user to guess the number and display if the user guessed correctly or not.
